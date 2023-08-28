@@ -95,13 +95,13 @@ async function checkWeather(city) {
             dayCard.classList.add('day-card', dayOfWeek.toLowerCase());
 
             dayCard.innerHTML = `
-                <img src="public/images/${iconToImage[iconCode]}.png" class="weather-icon" />
+                <img src="images/${iconToImage[iconCode]}.png" class="weather-icon" />
                 <div class="day-card-day">${dayOfWeek}</div>
                 <div>
                     <span class="temp-min">${minTemp}°C</span>
                     <span class="temp-max">${maxTemp}°C</span>
                 </div>
-            `;
+                `;
 
             if (minTemp !== maxTemp) {
                 dayCard.querySelector('.temp-min').style.color = '#fff';
