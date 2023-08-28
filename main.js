@@ -124,5 +124,5 @@ searchBtn.addEventListener('click', () => {
 });
 
 function getWeatherIconUrl(iconCode) {
-    return `images/${iconToImage[iconCode]}.png`;
+    return `public/images/${iconToImage[iconCode]}.png`;
 }
