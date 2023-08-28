@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <article class="card">
+            <section class="search">
+              <input type="text" placeholder="Ingresa Nombre de la Ciudad" spellcheck="false">
+              <button><img src="images/search.png"></button>       
+            </section>
+            <section class="error">
+              <p>Invalid City Name</p>
+            </section>
+            <section class="Weather">
+              <img src="images/rain_day.png" class="weather-icon">
+              <h1 class="temp">22°C</h1>
+              <h2 class="city">Mar Del Plata</h2>
+              <section class="details">
+                <article class="col">
+                  <img src="images/humidity.png" alt="">
+                  <div>
+                    <p class="humidity">50%</p>
+                    <p>Humedad</p>
+                  </div>
+                </article>
+                <article class="col">
+                  <img src="images/wind.png" alt="">
+                  <div>
+                    <p class="wind">15 km/h</p>
+                    <p>Velocidad del Viento</p>
+                  </div>
+                </article>
+              </section>
+            </section>
+          </article>
+          
+        <section class="day-section" data-day-section>
+            
+          </section>
+    </main>
+    <script type="module" src="main.js"></script>
+</body>
+</html>
