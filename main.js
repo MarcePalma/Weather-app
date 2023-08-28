@@ -95,7 +95,7 @@ async function checkWeather(city) {
             dayCard.classList.add('day-card', dayOfWeek.toLowerCase());
 
             dayCard.innerHTML = `
-                <img src="images/${iconToImage[iconCode]}.png" class="weather-icon" />
+                <img src="public/images/${iconToImage[iconCode]}.png" class="weather-icon" />
                 <div class="day-card-day">${dayOfWeek}</div>
                 <div>
                     <span class="temp-min">${minTemp}°C</span>
